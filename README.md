@@ -19,7 +19,7 @@ A Python script to monitor stock performance by comparing the **current market p
 ## 🚀 Usage Example
 
 ```python
-from your_script_name import analyze_stocks_realtime  # replace with actual script/module name
+from stock_screening import analyze_stocks  # analyze last close price
 
 tickers = ["BBCA.JK", "BBRI.JK", "BMRI.JK", "BBNI.JK"]
 base_prices = [7400, 3360, 4350, 3670]
