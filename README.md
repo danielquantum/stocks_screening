@@ -22,12 +22,12 @@ A Python script to monitor stock performance by comparing the **current market p
 from stock_screening import analyze_stocks           # analyze last close price
 from stock_screening import analyze_stocks_realtime  # analyze realtime stock price
 
-tickers = ["BBCA.JK", "BBRI.JK", "BMRI.JK", "BBNI.JK"]
+stocks = ["BBCA.JK", "BBRI.JK", "BMRI.JK", "BBNI.JK"]
 base_prices = [7400, 3360, 4350, 3670]
 support_prices = [8300, 3650, 4650, 3950]
 
 # Analyze last close price
-analyze_stocks(tickers, base_prices, support_prices)
+analyze_stocks(stocks, base_prices, support_prices)
 
 # Analyze realtime stock price
-analyze_stocks_realtime(tickers, base_prices, support_prices)
+analyze_stocks_realtime(stocks, base_prices, support_prices)
